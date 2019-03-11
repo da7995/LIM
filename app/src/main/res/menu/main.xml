@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="מסך ההתקדמות"
+        ></item>
+
+
+    <item
+        android:title="לעזרה והסבר על האפליקציה"
+        ></item>
+
+
+    <item
+        android:title="לשינוי הגדרות התחלתיות"
+        ></item>
+
+
+    <item
+        android:title="התחברות לבלוטוס"
+        ></item>
+
+
+    <item
+        android:title="למסך הראשי"
+        ></item>
+
+
+    <item
+        android:title="קרדיטים "
+        ></item>
+</menu>

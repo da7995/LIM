@@ -22,31 +22,18 @@ import java.util.Calendar;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    EditText name;
-    EditText age;
-    EditText countnow;
-    EditText framenow;
-    EditText countgoal;
+    EditText name, age, countnow, framenow,countgoal;
     EditText framegoal;
     String Sname;
-    Integer Sage;
-    int Scountnow;
-    int Sframenow;
-    int Scountgoal;
-    int Sframegoal;
+//    Integer Sage;
+    int Scountnow, Sframenow, Scountgoal, Sframegoal;
     Intent t;
-    Spinner sp1;
-    Spinner sp2;
-    Spinner sp3;
-    Spinner sp4;
+    Spinner sp1, sp2, sp3, sp4;
     boolean wantchange=false;
     SQLiteDatabase db;
     HelperDB hlp;
-    int d;
     ContentValues cv;
-    int day;
-    int week;
-
+    int d, day, week;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

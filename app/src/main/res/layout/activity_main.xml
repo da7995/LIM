@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgrounddd"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
@@ -13,8 +14,11 @@
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#f00"
+        android:textStyle="bold"
         android:text="הגעת למסך הפתיחה בו תגדיר את המטרה שלך. תוכל לחזור למסך זה מתי שתרצה"
-        android:textSize="15dp" />
+        />
 
 
     <EditText
@@ -22,13 +26,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textSize="10dp"
         android:hint="שם"
+        android:textColor="#f00"
+        android:textStyle="bold"
         android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#f00"
+        android:textStyle="bold"
         android:text="הגדרת המצב הנוכחי" />
 
     <TableLayout
@@ -47,9 +57,12 @@
             <EditText
                 android:id="@+id/countnow"
                 android:layout_width="127dp"
+                android:textColor="#f00"
+                android:textSize="10dp"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="כמות"
+                android:text="כמות"
                 android:inputType="number" />
 
         </TableRow>
@@ -68,8 +81,11 @@
                 android:layout_width="86dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="בכמה זמן"
-                android:inputType="numberSigned" />
+                android:inputType="numberSigned"
+                android:text="בכמה זמן"
+                android:textColor="#f00"
+                android:textSize="10dp"
+                android:textStyle="bold" />
 
         </TableRow>
     </TableLayout>
@@ -81,6 +97,9 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:textSize="10dp"
         android:layout_height="wrap_content"
         android:text="הגדרת המטרה " />
 
@@ -102,8 +121,11 @@
                 android:id="@+id/countgoal"
                 android:layout_width="127dp"
                 android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:textSize="10dp"
+                android:textStyle="bold"
                 android:ems="10"
-                android:hint="כמות"
+                android:text="כמות"
                 android:inputType="number" />
 
         </TableRow>
@@ -122,7 +144,10 @@
                 android:layout_width="86dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="בכמה זמן"
+                android:textColor="#f00"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="בכמה זמן"
                 android:inputType="numberSigned" />
 
         </TableRow>
@@ -134,9 +159,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="@drawable/button_bg_round"
         android:onClick="main"
+        android:textStyle="bold"
         android:text="למסך הראשי" />
 
 </LinearLayout>

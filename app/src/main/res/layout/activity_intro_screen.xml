@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgrounddd"
     android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".IntroScreen">
@@ -13,12 +14,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="שלום אורח יקר, נותרו לך עוד______ סיגריות לעשן היום" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="120dp" />
+        android:text="שלום אורח יקר, נותרו לך עוד 4 סיגריות לעשן היום"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/button3"

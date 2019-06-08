@@ -60,7 +60,7 @@ public class HelperDB extends SQLiteOpenHelper {
         strCreate="CREATE TABLE "+TABLE_PROGRAM;
         strCreate+=" ("+KEY_ID+" INTEGER PRIMARY KEY,";
         strCreate+=" "+WEEKNUM4+" INTEGER,";
-        strCreate+=" "+DAY4+" INTEGER";
+        strCreate+=" "+DAY4+" INTEGER,";
         strCreate+=" "+RESTRICT+" INTEGER";
         strCreate+=");";
         db.execSQL(strCreate);

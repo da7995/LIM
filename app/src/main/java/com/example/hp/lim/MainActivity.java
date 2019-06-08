@@ -242,11 +242,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
                 hlp = new HelperDB(this);
                 db = hlp.getWritableDatabase();
-                cv=new ContentValues();
                 d=(Scountgoal-Scountnow)/(Sframegoal-1);
-                int an=0;
+                int an;
                 for (int i=1;i<Sframegoal+1;i++){
                     an=Scountnow+d*(i-1);
+                    cv=new ContentValues();
                     cv.put(PROGRAM.DAY4,day);
                     cv.put(PROGRAM.WEEKNUM4,week);
                     cv.put(PROGRAM.RESTRICT,an);
